@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node server.jsh",
+    "start": "node server.js",
     "dev": "concurrently \"ng build --watch\"  \"nodemon --watch server.js --watch src server.js\"",
     "build": "ng build",
     "test": "ng test",
